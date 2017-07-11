@@ -1,0 +1,21 @@
+{
+  "name": "@learnersguild/styles",
+  "version": "0.0.1",
+  "description": "CSS/SCSS for Learners Guild projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./scripts/build.js",
+    "prepublishOnly": "npm run build"
+  },
+  "author": {
+    "name": "Tanner Welsh",
+    "email": "tanner@learnersguild.org"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "engines": {
+    "node": "7.9.x",
+    "npm": "4.2.x"
+  },
+}
