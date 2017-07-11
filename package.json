@@ -11,6 +11,10 @@
     "name": "Tanner Welsh",
     "email": "tanner@learnersguild.org"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LearnersGuild/styles.git"
+  },
   "devDependencies": {
     "node-sass": "^4.5.3"
   },
