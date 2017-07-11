@@ -1,0 +1,35 @@
+// Color variables
+
+$colors-primary: (
+  blue: #00A3DF,
+  green: #97C93D,
+  red: #ED3F60,
+  yellow: #F2BB1A,
+);
+
+$colors-secondary: (
+  dark-blue: #4A539F,
+  dark-green: #1B8C5C,
+  dark-red: #981C4D,
+  orange: #E47226,
+);
+
+$colors-text-and-bg: (
+  slate-grey: #252531,
+  light-grey: #E2E3E4,
+);
+
+$colors-all: map-merge($colors-primary, map-merge($colors-secondary, $colors-text-and-bg));
+
+
+// Color classes
+
+@each $color-name, $color-value in $colors-all {
+  .text-#{$color-name} {
+    color: $color-value;
+  }
+
+  .bg-#{$color-name} {
+    background-color: $color-value;
+  }
+}
