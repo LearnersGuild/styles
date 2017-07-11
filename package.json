@@ -1,7 +1,7 @@
 {
   "name": "@learnersguild/styles",
   "version": "0.0.1",
-  "description": "CSS/SCSS for Learners Guild projects",
+  "description": "Web styling assets for Learners Guild projects",
   "main": "index.js",
   "scripts": {
     "build": "node ./scripts/build.js",
