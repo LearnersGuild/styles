@@ -2,21 +2,39 @@ const fs = require('fs')
 const path = require('path')
 const sass = require('node-sass')
 
-const ROOT_PATH   = path.resolve(__dirname, '..')
-const SOURCE_FILE = path.resolve(ROOT_PATH, './src/main.scss')
-const DIST_FILE   = path.resolve(ROOT_PATH, './dist/main.min.css')
+const ROOT_PATH = path.resolve(__dirname, '..')
 
-const options = {
-  file: SOURCE_FILE,
-  outputStyle: 'nested' // options: nested, expanded, compact, compressed
+const config = {
+  sources: [
+    'main',
+    'materialize-mod',
+  ],
+  outputStyles: [
+    'nested',
+    'compressed',
+  ],
 }
 
-sass.render(options, (error, result) => {
-  if (error) {
-    console.error(error)
-  } else {
-    fs.writeFile(DIST_FILE, result.css, (err) => {
-      if (err) console.error(err)
+const outFileName = (source, outputStyle) => {
+  return outputStyle === 'compressed' ?
+    `${source}.min.css` :
+    `${source}.css`
+}
+
+config.sources.forEach((source) => {
+  config.outputStyles.forEach((outputStyle) => {
+    const file = path.resolve(ROOT_PATH, 'src', `${source}.scss`)
+    const outFile = path.resolve(ROOT_PATH, 'dist', outFileName(source, outputStyle))
+
+    const options = { file, outFile, outputStyle }
+
+    sass.render(options, (error, result) => {
+      if (error) return console.error(error)
+
+      fs.writeFile(outFile, result.css, function(err) {
+        if (error) return console.error(error)
+        console.log(`Compiled ${file} => ${outFile}`)
+      })
     })
-  }
+  })
 })
