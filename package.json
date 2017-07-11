@@ -16,6 +16,7 @@
     "url": "git+https://github.com/LearnersGuild/styles.git"
   },
   "devDependencies": {
+    "materialize-css": "^0.99.0",
     "node-sass": "^4.5.3"
   },
   "engines": {
