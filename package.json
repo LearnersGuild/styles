@@ -1,6 +1,6 @@
 {
   "name": "@learnersguild/styles",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Web styling assets for Learners Guild projects",
   "main": "index.js",
   "scripts": {
