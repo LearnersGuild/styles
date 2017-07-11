@@ -1,6 +1,6 @@
 {
   "name": "@learnersguild/styles",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Web styling assets for Learners Guild projects",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/LearnersGuild/styles.git"
   },
+  "dependencies":{
+    "materialize-css": "^0.99.0"
+  },
   "devDependencies": {
-    "materialize-css": "^0.99.0",
     "node-sass": "^4.5.3"
   },
   "engines": {
