@@ -7,7 +7,7 @@ Web styling assets for Learners Guild projects.
 ### Install with NPM
 
 ```shell
-$ npm install --save-dev @learnersguild/styles
+$ npm install --save @learnersguild/styles
 ```
 
 ### Import SCSS
