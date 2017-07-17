@@ -15,15 +15,16 @@ $ npm install --save @learnersguild/styles
 Then, in your SASS/SCSS:
 
 ```scss
-@import "node_modules/@learnersguild/styles/src/base";
+@import "~@learnersguild/styles/src/base";
 ```
 
 ### Using Materialize Mod
 
-To use the customized [Materialize](http://materializecss.com/) stylesheets, add the following to your SASS/SCSS:
+If you're using [Materialize](http://materializecss.com/), add custom colors with the `src/materialize-mod.scss` .
 
 ```scss
-@import "node_modules/@learnersguild/styles/src/materialize-mod";
+@import "~@learnersguild/styles/src/materialize-mod";
+// Import Materialize SASS afterwards
 ```
 
 Make sure that you also add Materialize's dependencies (e.g. Google fonts and JS files). See their [Getting Started guide](http://materializecss.com/getting-started.html) for info.

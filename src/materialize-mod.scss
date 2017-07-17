@@ -1,4 +1,4 @@
-@import 'base';
+@import 'colors';
 
 // Materialize overrides: Colors
 $primary-color: map-get($colors-primary, blue) !default;
@@ -8,5 +8,3 @@ $secondary-color: map-get($colors-primary, yellow) !default;
 $success-color: map-get($colors-primary, green) !default;
 $error-color: map-get($colors-primary, red) !default;
 $link-color: $primary-color-light !default;
-
-@import '../node_modules/materialize-css/sass/materialize';

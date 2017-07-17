@@ -7,7 +7,6 @@ const ROOT_PATH = path.resolve(__dirname, '..')
 const config = {
   sources: [
     'base',
-    'materialize-mod',
   ],
   outputStyles: [
     'nested',
