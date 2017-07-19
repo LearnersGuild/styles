@@ -21,14 +21,23 @@ $colors-text-and-bg: (
 
 $colors-all: map-merge($colors-primary, map-merge($colors-secondary, $colors-text-and-bg));
 
+// Color variables
+
+:root {
+  @each $color-name, $color-value in $colors-all {
+    --color-#{$color-name}: $color-value;
+  }
+}
 
 // Color classes
 
 @each $color-name, $color-value in $colors-all {
+  // Custom text color classes
   .text-#{$color-name} {
     color: $color-value;
   }
 
+  // Custom background color classes
   .bg-#{$color-name} {
     background-color: $color-value;
   }
