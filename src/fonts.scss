@@ -1,0 +1,306 @@
+$fonts-path: '../fonts/' !default;
+
+// Stag
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-Black.eot');
+  src: url('#{$fonts-path}Stag-Black.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Black.woff') format('woff'),
+    url('#{$fonts-path}Stag-Black.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-Bold.eot');
+  src: url('#{$fonts-path}Stag-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Bold.woff') format('woff'),
+    url('#{$fonts-path}Stag-Bold.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-LightItalic.eot');
+  src: url('#{$fonts-path}Stag-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-LightItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-LightItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-SemiboldItalic.eot');
+  src: url('#{$fonts-path}Stag-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-SemiboldItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-SemiboldItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-SemiboldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-Light.eot');
+  src: url('#{$fonts-path}Stag-Light.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Light.woff') format('woff'),
+    url('#{$fonts-path}Stag-Light.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-MediumItalic.eot');
+  src: url('#{$fonts-path}Stag-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-MediumItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-MediumItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-Medium.eot');
+  src: url('#{$fonts-path}Stag-Medium.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Medium.woff') format('woff'),
+    url('#{$fonts-path}Stag-Medium.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-Semibold.eot');
+  src: url('#{$fonts-path}Stag-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Semibold.woff') format('woff'),
+    url('#{$fonts-path}Stag-Semibold.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-BlackItalic.eot');
+  src: url('#{$fonts-path}Stag-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-BlackItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-BlackItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-ThinItalic.eot');
+  src: url('#{$fonts-path}Stag-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-ThinItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-ThinItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-BoldItalic.eot');
+  src: url('#{$fonts-path}Stag-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-BoldItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-BoldItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Stag';
+  src: url('#{$fonts-path}Stag-Thin.eot');
+  src: url('#{$fonts-path}Stag-Thin.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Thin.woff') format('woff'),
+    url('#{$fonts-path}Stag-Thin.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+// Stag Book
+
+@font-face {
+  font-family: 'Stag Book';
+  src: url('#{$fonts-path}Stag-Book.eot');
+  src: url('#{$fonts-path}Stag-Book.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-Book.woff') format('woff'),
+    url('#{$fonts-path}Stag-Book.otf') format('opentype'),
+    url('#{$fonts-path}Stag-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag Book';
+  src: url('#{$fonts-path}Stag-BookItalic.eot');
+  src: url('#{$fonts-path}Stag-BookItalic.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-BookItalic.woff') format('woff'),
+    url('#{$fonts-path}Stag-BookItalic.otf') format('opentype'),
+    url('#{$fonts-path}Stag-BookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+// Stag Dot
+
+@font-face {
+  font-family: 'Stag Dot';
+  src: url('#{$fonts-path}Stag-ThinDot.eot');
+  src: url('#{$fonts-path}Stag-ThinDot.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-ThinDot.woff') format('woff'),
+    url('#{$fonts-path}Stag-ThinDot.otf') format('opentype'),
+    url('#{$fonts-path}Stag-ThinDot.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Stag Dot';
+  src: url('#{$fonts-path}Stag-BoldDot.eot');
+  src: url('#{$fonts-path}Stag-BoldDot.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}Stag-BoldDot.woff') format('woff'),
+    url('#{$fonts-path}Stag-BoldDot.otf') format('opentype'),
+    url('#{$fonts-path}Stag-BoldDot.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+// Proxima Nova
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-Black.eot');
+  src: url('#{$fonts-path}ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-Black.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-Black.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-LightIt.eot');
+  src: url('#{$fonts-path}ProximaNova-LightIt.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-LightIt.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-LightIt.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-Bold.eot');
+  src: url('#{$fonts-path}ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-Bold.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-Bold.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-Regular.eot');
+  src: url('#{$fonts-path}ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-Regular.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-Regular.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-BlackIt.eot');
+  src: url('#{$fonts-path}ProximaNova-BlackIt.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-BlackIt.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-BlackIt.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-BlackIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-RegularIt.eot');
+  src: url('#{$fonts-path}ProximaNova-RegularIt.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-RegularIt.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-RegularIt.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-RegularIt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-BoldIt.eot');
+  src: url('#{$fonts-path}ProximaNova-BoldIt.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-BoldIt.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-BoldIt.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-Semibold.eot');
+  src: url('#{$fonts-path}ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-Semibold.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-Semibold.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-Light.eot');
+  src: url('#{$fonts-path}ProximaNova-Light.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-Light.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-Light.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-ThinIt.eot');
+  src: url('#{$fonts-path}ProximaNova-ThinIt.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-ThinIt.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-ThinIt.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-ThinIt.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('#{$fonts-path}ProximaNova-SemiboldIt.eot');
+  src: url('#{$fonts-path}ProximaNova-SemiboldIt.eot?#iefix') format('embedded-opentype'),
+    url('#{$fonts-path}ProximaNova-SemiboldIt.woff') format('woff'),
+    url('#{$fonts-path}ProximaNova-SemiboldIt.otf') format('opentype'),
+    url('#{$fonts-path}ProximaNova-SemiboldIt.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
